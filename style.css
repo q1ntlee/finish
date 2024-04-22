@@ -13,7 +13,7 @@
 
 /* HEADER */
 .header {
-  background-color: #525e53;
+  background-color: #c70c0c;
   padding-top: 36px;
   padding-bottom: 200px;
 }
@@ -25,9 +25,9 @@
 }
 
 .logo {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  border-radius: 100%;
   background-color: #a00b0b;
   display: flex;
   justify-content: center;
@@ -61,26 +61,26 @@
 
 .header-subtitle-text {
   display: inline-block;
-  border-left: 1px solid #8C8C8C;
-  padding: 8px 0 8px 20px;
+  line-height: 1;
   color: #8C8C8C;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 13px;
-  letter-spacing: 1.5px;
-  margin-bottom: 13px;
+  font-size: 30px;
+  
+  text-align: center;
 }
 
 .header-title-text {
-  font-size: 90px;
+  font-size: 50px;
   font-weight: bold;
   color: #fff;
   max-width: 6200px;
   line-height: 1;
+  text-align: center;
 }
 
 .join {
-  background-color: #FEBE02;
+  background-color: #1c4416;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -185,6 +185,7 @@
   margin-top: 15px;
   margin-bottom: 4px;
   text-align: center;
+  flex-flow: column;
 }
 
 .about-subtitle {
@@ -196,8 +197,42 @@
   display: block;
 }
 
+
 .manga {
-  color: #e5ff00;
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  margin-top: 15px;
+  margin-bottom: 4px;
+  text-align: center;
+  line-height: 1;
+  flex-flow: column;
+}
+
+.footer {
+  height: 218px;
+  background-color: #1c4416;
+}
+
+.sh {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  flex-flow: column;
+}
+
+.logotyp {
+  width: 80px;
+  height: 94px;
+  margin-top: 5px;
   
-  
+  margin-left: 920px;
+  flex-flow: column;
+}
+
+.audio-author {
+  text-align: center;
+  flex-flow: column;
 }
